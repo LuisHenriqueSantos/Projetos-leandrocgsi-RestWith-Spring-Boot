@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.concurrent.atomic.AtomicLong;
 
 @RestController
-public class MathController {
+public class MatematicaControlador {
     private final AtomicLong counter = new AtomicLong();
 
     @RequestMapping(value = "/sum/{numberOne}/{numberTwo}",
